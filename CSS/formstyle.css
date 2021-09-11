@@ -1,0 +1,50 @@
+label{
+    font-size: 25px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select{
+    margin-left: 40%;
+    margin-right: 40%;
+    width : 25%;
+    height : 5%;
+    user-select: none;
+}
+
+
+input[type=submit]{
+    color: white;
+    background-color:rgb(104, 104, 104);
+}
+
+input[type=submit]:hover{
+    opacity: 0.6;
+}
+
+
+
+input:focus{
+    outline: none;
+}
+/*
+dialog{
+    width:50%;
+    background-color:#F4FFEF;
+    border:1px dotted black;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    margin-top: 35%;
+    margin-left: 35%;
+}
+*/
+
